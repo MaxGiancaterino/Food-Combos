@@ -6,6 +6,7 @@ import { TabNavigator, TabBarBottom } from 'react-navigation';
 import Colors from '../constants/Colors';
 
 import HomeScreen from '../screens/HomeScreen';
+import ComboScreen from '../screens/ComboScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
@@ -13,6 +14,9 @@ export default TabNavigator(
   {
     Home: {
       screen: HomeScreen,
+    },
+    Combos: {
+      screen: ComboScreen,
     },
     Links: {
       screen: LinksScreen,
@@ -31,6 +35,11 @@ export default TabNavigator(
             iconName = Platform.OS === 'ios'
               ? `ios-information-circle${focused ? '' : '-outline'}`
               : 'md-information-circle';
+            break;
+          case 'Combos':
+            iconName = Platform.OS === 'ios'
+              ? `ios-thumbs-up-outline${focused ? '' : '-outline'}`
+              : 'md-thumbs-up-outline';
             break;
           case 'Links':
             iconName = Platform.OS === 'ios'
