@@ -3,7 +3,6 @@ import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
 import RootNavigation from './navigation/RootNavigation';
-//comment grace
 export default class App extends React.Component {
   state = {
     assetsAreLoaded: false,
@@ -36,7 +35,7 @@ export default class App extends React.Component {
           require('./assets/images/robot-prod.png'),
         ]),
         Font.loadAsync([
-          // This is the font that we are using for our tab bar
+          // This is the font that we are using for our tab bar dickhole huge fat juicy
           Ionicons.font,
           // We include SpaceMono because we use it in HomeScreen.js. Feel free
           // to remove this if you are not using it in your app
