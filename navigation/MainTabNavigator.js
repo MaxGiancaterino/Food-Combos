@@ -7,7 +7,7 @@ import Colors from '../constants/Colors';
 
 import HomeScreen from '../screens/HomeScreen';
 import ComboScreen from '../screens/ComboScreen';
-import LinksScreen from '../screens/LinksScreen';
+import SearchScreen from '../screens/SearchScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 export default TabNavigator(
@@ -19,7 +19,7 @@ export default TabNavigator(
       screen: ComboScreen,
     },
     Links: {
-      screen: LinksScreen,
+      screen: SearchScreen,
     },
     Settings: {
       screen: SettingsScreen,
