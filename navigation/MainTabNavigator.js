@@ -38,8 +38,8 @@ export default TabNavigator(
             break;
           case 'Combos':
             iconName = Platform.OS === 'ios'
-              ? `ios-thumbs-up-outline${focused ? '' : '-outline'}`
-              : 'md-thumbs-up-outline';
+              ? `ios-thumbs-up${focused ? '' : '-outline'}`
+              : 'md-thumbs-up';
             break;
           case 'Links':
             iconName = Platform.OS === 'ios'
