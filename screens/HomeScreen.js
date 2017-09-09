@@ -50,7 +50,7 @@ export default class HomeScreen extends React.Component {
             </View>
 
             <Text style={styles.getStartedText}>
-				Hello my name is grace.
+				Hello my name is grace and I am an amazing person.
             </Text>
           </View>
 
