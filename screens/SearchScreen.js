@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { List, View, FlatList, StyleSheet, Text} from 'react-native';
-import Search from 'react-native-search-box';
 
 export default class SearchScreen extends React.Component {
 	//create the title
